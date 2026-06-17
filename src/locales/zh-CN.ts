@@ -426,7 +426,8 @@ export default {
       title: '基本信息',
       basicInfo: '基本设置',
       resetPwd: '密码设置',
-      userSocial: '社交绑定'
+      userSocial: '社交绑定',
+      clientSecret: '客户端密钥'
     },
     rules: {
       nickname: '请输入用户昵称',

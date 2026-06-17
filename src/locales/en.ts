@@ -432,7 +432,8 @@ export default {
       title: 'Basic Information',
       basicInfo: 'Basic Information',
       resetPwd: 'Reset Password',
-      userSocial: 'Social Information'
+      userSocial: 'Social Information',
+      clientSecret: 'Client Secret'
     },
     rules: {
       nickname: 'Please Enter User Nickname',

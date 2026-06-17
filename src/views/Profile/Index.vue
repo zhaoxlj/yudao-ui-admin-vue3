@@ -21,13 +21,16 @@
           <el-tab-pane :label="t('profile.info.userSocial')" name="userSocial">
             <UserSocial v-model:activeName="activeName" />
           </el-tab-pane>
+          <el-tab-pane :label="t('profile.info.clientSecret')" name="clientSecret">
+            <ClientSecret />
+          </el-tab-pane>
         </el-tabs>
       </div>
     </el-card>
   </div>
 </template>
 <script lang="ts" setup>
-import { BasicInfo, ProfileUser, ResetPwd, UserSocial } from './components'
+import { BasicInfo, ClientSecret, ProfileUser, ResetPwd, UserSocial } from './components'
 
 const { t } = useI18n()
 defineOptions({ name: 'Profile' })
